@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -252,7 +252,10 @@
                         Eu sou a Jade, e antes de entrar no mundo dos projetos digitais e mentoria, eu fui empresária por mais de 10 anos no ramo alimentício.
                     </p>
                     <p>
-                        Hoje, minha missão é ajudar mulheres experientes como você a materializar seu conhecimento em um <span class="text-white font-bold">método autoral</span>, capaz de gerar alto impacto sem consumir toda a sua rotina.
+                        Mas, apesar do negócio em ascensão, algo estava faltando: <span class="text-white italic">Propósito e Liberdade.</span> Foi aí que percebi que sucesso é poder escolher onde, como e com quem você trabalha, sem estar presa à própria agenda.
+                    </p>
+                    <p>
+                        Hoje, minha missão é ajudar mulheres experientes como você a materializar seu conhecimento em um <span class="text-white font-bold">método autoral</span>, capaz de gerar alto impacto na sociedade sem consumir toda a sua rotina. O Workshop Método Autoral é o caminho para viver do seu propósito com liberdade.
                     </p>
                 </div>
                 <div class="flex items-center space-x-4 pt-4">
@@ -274,16 +277,64 @@
 
 
             <div class="space-y-2">
+                <!-- Pergunta 1 -->
                 <div class="faq-item">
                     <div class="faq-question text-white font-medium text-lg">
                         Para quem é este Workshop?
                         <span class="faq-icon text-2xl coral-text">+</span>
                     </div>
                     <div class="faq-answer">
-                        Para mulheres experientes em qualquer nicho que desejam viver do seu conhecimento com propósito e liberdade.
+                        Para mulheres experientes em qualquer nicho que desejam viver do seu conhecimento com propósito e liberdade. Se você atende as pessoas no individual, vendendo sua hora e quer vender um método autoral escalável, este lugar é seu.
                     </div>
                 </div>
-                <!-- ... outros itens do FAQ permanecem idênticos ... -->
+
+
+                <!-- Pergunta 2 -->
+                <div class="faq-item">
+                    <div class="faq-question text-white font-medium text-lg">
+                        Qual a duração do encontro?
+                        <span class="faq-icon text-2xl coral-text">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        O Workshop tem duração total de 2 horas: 1 hora e meia focada em conteúdo prático e estratégico, seguidas de 30 minutos exclusivos para tira-dúvidas e orientações individuais.
+                    </div>
+                </div>
+
+
+                <!-- Pergunta 3 -->
+                <div class="faq-item">
+                    <div class="faq-question text-white font-medium text-lg">
+                        As edições do workshop ficam gravadas?
+                        <span class="faq-icon text-2xl coral-text">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Sim! Além de receber a gravação da edição editada para focar no conteúdo, você terá o benefício exclusivo de acessar todas as edições futuras do Workshop por 1 ano, permitindo que você acompanhe a evolução da construção de um método.
+                    </div>
+                </div>
+
+
+                <!-- Pergunta 4 (Nova) -->
+                <div class="faq-item">
+                    <div class="faq-question text-white font-medium text-lg">
+                        Terei acesso a algum material de apoio?
+                        <span class="faq-icon text-2xl coral-text">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Com certeza. Você receberá um Quadro Exclusivo no Trello com todas as etapas para a construção do seu Método Autoral, além de um material em PDF prático para guiar sua implementação.
+                    </div>
+                </div>
+
+
+                <!-- Pergunta 5 (Nova) -->
+                <div class="faq-item">
+                    <div class="faq-question text-white font-medium text-lg">
+                        Onde e como recebo o acesso?
+                        <span class="faq-icon text-2xl coral-text">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Imediatamente após a inscrição, você receberá um e-mail com as orientações de acesso à nossa plataforma. Lá estarão todos os links das aulas ao vivo, materiais extras e orientações iniciais.
+                    </div>
+                </div>
             </div>
 
 
@@ -300,12 +351,14 @@
     </section>
 
 
+    <!-- Footer -->
     <footer class="py-12 border-t border-white/5 text-center">
         <p class="text-zinc-600 text-[10px] uppercase tracking-[0.5em]">© 2026 Jade Torres — Caverna das Guerreiras</p>
     </footer>
 
 
     <script>
+        // Lógica da Calculadora
         const inputs = [document.getElementById('valorHora'), document.getElementById('qtdClientes'), document.getElementById('valorMetodo')];
         const displayHora = document.getElementById('displayHora');
         const displayClientes = document.getElementById('displayClientes');
@@ -343,6 +396,7 @@
         window.onload = calcular;
 
 
+        // Lógica do FAQ Accordion
         document.querySelectorAll('.faq-question').forEach(question => {
             question.addEventListener('click', () => {
                 const item = question.parentElement;
@@ -354,3 +408,4 @@
     </script>
 </body>
 </html>
+
